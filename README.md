@@ -1,2 +1,4 @@
 # Prim-s-Algorithm
-This project performs Prim's Algorithm on a set of coordinates and will use a greedy algorithm to find the shortest path to all of the nodes.
+This project performs Prim's Algorithm on a set of coordinates and will use a greedy algorithm to find the shortest path to all nodes. This project can be run through VS-code to execute. The format for the coordinate file has the number of nodes as the first line and the following lines contain the coordinates in the following format: (#, #). This project uses a minimum heap to store the current shortest distance and uses a vector to store both the edges and the visited nodes. NOTE: the first coordinate in the input file will be the beginning node. 
+
+Prim's Algorithm is a greedy algorithm that tries to find the shortest distance to every possible node. This algorithm groups the visited nodes and traverses to the next smallest distance based on what nodes have already been visited. The execution of the algorithm ends when all of the nodes/coordinates have been visited. 
